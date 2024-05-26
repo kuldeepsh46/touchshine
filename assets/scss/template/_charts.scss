@@ -1,0 +1,249 @@
+.map,
+.chart {
+	position: relative;
+	padding-top: 56.25%;
+}
+
+.map-square,
+.chart-square {
+	padding-top: 100%;
+}
+
+.map-content,
+.chart-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.map-header {
+	margin-bottom: 1.5rem;
+	height: 15rem;
+	position: relative;
+	margin-bottom: -1.5rem;
+	&:before {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 10rem;
+		background: linear-gradient(to bottom, rgba(245, 247, 251, 0) 5%, 95%);
+		pointer-events: none;
+	}
+}
+
+.map-header-layer {
+	height: 100%;
+}
+
+.map-static {
+	height: 120px;
+	width: 100%;
+	max-width: 640px;
+	background-position: center center;
+	background-size: 640px 120px;
+}
+
+.chart-circle {
+	display: block;
+	height: 6.5rem;
+	width: 6.5rem;
+	position: relative;
+	margin: 0 auto;
+	canvas {
+		margin: 0 auto;
+		display: block;
+		max-width: 100%;
+		max-height: 100%;
+	}
+}
+
+.chart-circle-xs {
+	height: 2.5rem;
+	width: 2.5rem;
+	font-size: .8rem;
+}
+
+.chart-circle-xs1 {
+	height: 110px;
+	width: 110px;
+	font-size: .8rem;
+}
+
+.chart-circle-sm {
+	height: 4rem;
+	width: 4rem;
+	font-size: .8rem;
+}
+
+.chart-circle-lg {
+	height: 10rem;
+	width: 10rem;
+	font-size: .8rem;
+}
+
+.chart-circle-value {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	line-height: 1;
+	small {
+		display: block;
+		color: #8c98b9;
+		font-size: 0.9375rem;
+	}
+}
+
+.sparkgraph {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	height: 43px;
+	canvas {
+		width: 100% !important;
+	}
+}
+
+.amcharts-chart-div a,
+.canvasjs-chart-container a {
+	display: none !important;
+}
+
+.amChartsLegend.amcharts-legend-div {
+	display: none;
+}
+
+.graph canvas {
+	width: 100% !important;
+}
+
+.map-header1 {
+	margin-bottom: 1.5rem;
+	height: 23.2rem;
+	position: relative;
+	margin-bottom: -1.5rem;
+	border: 1px solid $border;
+}
+
+.map-content-width {
+	.mCSB_inside>.mCSB_container {
+		margin-right: 0;
+	}
+	.mCSB_scrollTools {
+		.mCSB_dragger .mCSB_dragger_bar {
+			float: right;
+			background: $black-3 !important;
+		}
+		.mCSB_draggerRail {
+			display: none !important;
+		}
+		.mCSB_dragger .mCSB_dragger_bar:hover {
+			background: $black-5 !important;
+		}
+	}
+}
+
+.mh-500 {
+	max-height: 500px;
+}
+
+.map-absolute {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 30px;
+}
+
+.chart-dropshadow-primary {
+	-webkit-filter: drop-shadow((-6px) 12px 4px rgba(90, 63, 243, 0.3));
+	filter: drop-shadow((-6px) 12px 4px rgba(90, 63, 243, 0.3));
+}
+
+.chart-dropshadow-secondary {
+	-webkit-filter: drop-shadow((-6px) 12px 4px rgba(90, 63, 243, 0.3));
+	filter: drop-shadow((-6px) 12px 4px rgba(251, 134, 88, 0.3));
+}
+
+.chart-dropshadow-success {
+	-webkit-filter: drop-shadow((-6px) 12px 4px rgba(90, 63, 243, 0.3));
+	filter: drop-shadow((-6px) 12px 4px rgba(54, 179, 126, 0.3));
+}
+
+.chart-dropshadow-info {
+	-webkit-filter: drop-shadow((-6px) 12px 4px rgba(90, 63, 243, 0.3));
+	filter: drop-shadow((-6px) 12px 4px rgba(9, 176, 236, 0.3));
+}
+
+.chart-dropshadow2 {
+	-webkit-filter: drop-shadow((-6px) 12px 4px $black-1);
+	filter: drop-shadow((-6px) 12px 4px $black-1);
+}
+
+.chart-dropshadow3 {
+	-webkit-filter: drop-shadow((-6px) 12px 4px rgba(94, 101, 105, 0.2));
+	filter: drop-shadow((-6px) 12px 4px rgba(94, 101, 105, 0.2));
+}
+
+.areaChart1,
+.areaChart2,
+.areaChart3,
+.areaChart4 {
+	display: block;
+	position: relative;
+	width: 80px !important;
+	height: 80px !important;
+}
+
+.chart-data {
+	position: absolute;
+	bottom: 4px;
+	width: 100%;
+}
+
+.cryptoChart,
+.cryptoChart2,
+.cryptoChart3,
+.cryptoChart4 {
+	position: relative;
+	width: 105% !important;
+	left: -7px;
+	bottom: -14px;
+}
+
+#echart1 {
+	height: 100px !important;
+}
+
+.apexcharts-canvas {
+	position: relative;
+	user-select: none;
+	margin: 0 auto;
+}
+
+.piechart {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	width: 104px;
+	height: 110px;
+	canvas {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}

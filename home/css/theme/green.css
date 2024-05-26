@@ -1,0 +1,169 @@
+body{
+	background: url(../../img/green-bg.jpg) no-repeat;
+	background-size:cover;
+}
+.header__logo a .logo{
+	width:320px;
+	height:73px;
+	background: url(../../img/logo-green.png) no-repeat;
+}
+.shrink .header__logo a .logo{
+	width:260px;
+	height:53px;
+	background: url(../../img/logo-green.png) no-repeat;
+	background-size:cover;
+}
+@media only screen and (max-width: 991px){
+	.header__logo a .logo {
+		width: 160px;
+		height: 53px;
+		background: url(../../img/logo-green.png) no-repeat;
+		background-size: cover;
+	}
+	.offcanvas__logo a .logo {
+		width: 180px;
+		height: 60px;
+		background: url(../../img/logo-green.png) no-repeat;
+		background-size: cover;
+	}
+}
+.pre-reg{
+	background:#fff;
+	color:#1a1a1a;
+	background:url(../../img/reg-green.png);
+	width:110px;
+	height:107px;
+	position: fixed;
+    z-index: 9;
+    top: 230px;
+}
+.header__bottom {
+    background: url(../../img/head-slant-green.png) no-repeat right;
+	background-position: -50px 0;
+    /* float: right; */
+    background-size: cover;
+	transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+}
+.loan-services {
+    background: #c5fff2;
+}
+#cp-settings-toggle + label {
+    background: #26ae90;
+}
+.section-title h2:after {
+    content: '';
+    background: #26ae90;
+}
+.service-items:before {
+    background: #26ae90;
+    content: "";
+}
+.service-items span:before {
+    color: #26ae90;
+}
+.service-wrap a {
+    color: #26ae90;
+}
+.rightpanel .panel-link {
+    background-color: #26ae90;
+}
+.rightpanel .panel-container .active {
+    background-color: #034c3c;
+}
+.rightpanel .panel-container .panel-header {
+    background: #26ae90;
+}
+.panel-header, .panel-body {
+    background: #272727;
+}
+.rightpanel .panel-container .right-panel-child {
+    background: #272727;
+}
+.canvas__open {
+    color: #725175;
+}
+.offcanvas__widget li i {
+    color: #725175;
+}
+.offcanvas__language {
+    background: #725175;
+}
+.master-head {
+    background: #725175;
+}
+.header__top {
+    background: #26ae90;
+}
+.header__top__language {
+    background: #725175;
+}
+.header__menu ul li a:after {
+    background: #fff;
+    content: "";
+}
+.shrink .header__menu ul li a:after {
+    background: #26ae90;
+    content: "";
+}
+.news-header {
+    background: #26ae90;
+}
+.loan__services__item__text a {
+    font-size: 12px;
+    background: #ffffff;
+    color: #26ae90;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px 20px;
+    position: relative;
+	-webkit-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+}
+.loan__services__item__text a:hover{
+	background: #26ae90;
+    color: #fff;
+	-webkit-transition: all, 0.3s;
+	-o-transition: all, 0.3s;
+	transition: all, 0.3s;
+}
+h2.color-change {
+    color: #26ae90 !important;
+}
+ul.footer-service-list.style-list-1 li {
+    margin-top: 10px;
+    padding: 10px 0px 10px;
+    border-bottom: solid 1px #26ae90;
+    height: auto;
+}
+.service-area{
+    padding: 130px 0px 50px;
+	background: url(../../img/green-bg.jpg) no-repeat;
+    background-size: cover;
+}
+.folder-summary__file-count__amount {
+    color: #26ae90;
+}
+.folder-summary {
+    background: #26ae90;
+}
+.access h2 {
+    color: #26ae90;
+}
+.site-btn {
+    background: #26ae90;
+}
+.testimonial__slider.owl-carousel .owl-nav button:hover {
+    background: #26ae90;
+    color: #ffffff;
+}
+.blog__details__slider.owl-carousel .owl-nav button:hover {
+	background: #26ae90;
+	color: #ffffff;
+}
+.footer {
+    background: #725175;
+}

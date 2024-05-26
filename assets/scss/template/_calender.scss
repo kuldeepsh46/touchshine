@@ -1,0 +1,132 @@
+.fc-toolbar:before,
+.login-content:after {
+	content: "";
+}
+
+#footer,
+.fc-toolbar .ui-button,
+.fileinput .thumbnail {
+	text-align: center;
+}
+
+.four-zero {
+	text-align: center;
+	footer>a {
+		text-align: center;
+	}
+}
+
+.ie-warning,
+.login-content,
+.login-navigation {
+	text-align: center;
+}
+
+.pt-inner {
+	text-align: center;
+	.pti-footer>a {
+		text-align: center;
+	}
+}
+
+.cal1 {
+	.clndr .clndr-table {
+		.header-days .header-day {
+			border-left: 1px solid rgba(5, 117, 230, 0.1);
+			border-top: 1px solid $border;
+		}
+		tr {
+			.empty,
+			.adjacent-month,
+			.my-empty,
+			.my-adjacent-month {
+				border-left: 1px solid #79c2b2;
+				border-top: 1px solid #79c2b2;
+				background: $white;
+			}
+			.day {
+				&.event,
+				&.my-event {
+					background: #eceef4;
+				}
+				&.event:hover,
+				&.my-event:hover {
+					background: #15e0fd;
+				}
+				border-left: 1px solid $border;
+				border-top: 1px solid $border;
+				&:last-child {
+					border-right: 1px solid $border;
+				}
+				&:hover {
+					background: #e6f2fe;
+				}
+			}
+		}
+	}
+	font-size: 14px;
+	border: 1px solid $border;
+}
+
+.fc-unthemed {
+	.fc-content,
+	.fc-divider,
+	.fc-list-heading td,
+	.fc-list-view,
+	.fc-popover,
+	.fc-row,
+	tbody,
+	td,
+	th,
+	thead {
+		border-color: #eff2f7;
+	}
+}
+
+.fc-event {
+	border: 1px solid $border;
+}
+
+.fc-unthemed {
+	.fc-divider,
+	.fc-list-heading td,
+	.fc-popover .fc-header {
+		background: $white;
+	}
+}
+
+.fc-toolbar {
+	.fc-state-active,
+	.ui-state-active {
+		background: #09acca;
+	}
+}
+
+.fc-today-button fc-button fc-state-default fc-corner-left fc-corner-right fc-state-disabled:focus {
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.fc-unthemed .fc-list-item:hover td {
+	background-color: #f1f5fa;
+}
+
+.calendar-icon {
+	position: relative;
+	width: 43px;
+	height: 43px;
+	margin: 0 1%;
+	float: left;
+	perspective: 1000px;
+	box-sizing: border-box;
+	border: 1px solid #dee5ed;
+	border-radius: 3px;
+	box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.04);
+}
+
+.fc-event,
+.fc-event-dot {
+	background-color: $primary;
+	color: #f1f1f1 ! important;
+	padding: 5px !important;
+}

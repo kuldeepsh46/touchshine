@@ -1,0 +1,3 @@
+
+Request : ["Content-Type: application\/json","x-mid: ECUZEN31135371924095","x-checksum: 33\/Hkk5lhu1f+\/T8S\/509MzicgSPIDGRB+5rLU49duthWK9\/SV3CgeS2Faq\/phwiQE8IT3SqFe8ymV6tQylb0inSqAmRWzPg3gTO1v+RiPQ="]
+Responce : {"status":"ACCEPTED","statusCode":"DE_002","statusMessage":"Request accepted"}

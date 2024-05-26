@@ -1,0 +1,107 @@
+.select-languages {
+	color: $color;
+	border-radius: 3px;
+	&:focus {
+		color: #3d4e67;
+		background-color: $white;
+	}
+	.select2-container .select2-selection--single {
+		height: 1.4rem !important;
+		color: #8c98b9 important;
+		border-radius: 2px;
+		background: none !important;
+		border: 0 !important;
+	}
+	.select2-container--default .select2-selection--single {
+		.select2-selection__rendered {
+			line-height: 20.5px !important;
+		}
+		.select2-selection__arrow {
+			top: -2px !important;
+		}
+	}
+	.select2-container {
+		width: 138px !important;
+	}
+	.select2-results {
+		color: #8c98b9 !important;
+	}
+}
+
+.select-currency {
+	.select2-container .select2-selection--single {
+		height: 1.4rem !important;
+		color: #8c98b9 important;
+		border-radius: 2px;
+		background: none !important;
+		border: 0 !important;
+	}
+	.select2-container--default .select2-selection--single {
+		.select2-selection__rendered {
+			line-height: 20.5px !important;
+		}
+		.select2-selection__arrow {
+			top: -2px !important;
+		}
+	}
+	.select2-container {
+		width: 138px !important;
+	}
+	.select2-results {
+		color: #8c98b9 !important;
+	}
+}
+
+.select-country {
+	.select2-container {
+		.select2-selection--single {
+			.select2-selection__rendered {
+				padding-left: 3px;
+			}
+			height: 1.4rem !important;
+			color: #8c98b9 important;
+			border-radius: 2px;
+			background: none !important;
+			border: 0 !important;
+		}
+		width: 150px !important;
+	}
+	.select2-container--default .select2-selection--single {
+		.select2-selection__rendered {
+			line-height: 21px !important;
+		}
+		.select2-selection__arrow {
+			top: -3px !important;
+		}
+	}
+	.select2-results {
+		color: #8c98b9 !important;
+	}
+}
+
+.select2-results__option {
+	font-size: 13px;
+}
+
+.my-select .select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 100%;
+}
+
+.select2-container--default {
+	.select2-selection--single .select2-selection__arrow {
+		height: 100% !important;
+	}
+	.select2-results__option--highlighted[aria-selected] {
+		background-color: $primary;
+		color: white;
+	}
+	.select2-results__option[aria-selected=true] {
+		background-color: $background;
+	}
+	.select2-selection--single .select2-selection__rendered {
+		color: $color !important;
+	}
+}
+.select2-container .select2-selection--single {
+    height: 100% !important;
+}

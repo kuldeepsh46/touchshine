@@ -1,0 +1,329 @@
+/*----- Typography ------*/
+
+.heading-inverse {
+	background-color: #333;
+	color: $white;
+	padding: 5px;
+}
+
+.heading-success {
+	background-color: $success;
+	color: $white;
+	padding: 5px;
+}
+
+.heading-info {
+	background-color: #0a7ffb;
+	color: $white;
+	padding: 5px;
+}
+
+.heading-warning {
+	background-color: $warning;
+	color: $white;
+	padding: 5px;
+}
+
+.heading-danger {
+	background-color: #f94859;
+	color: $white;
+	padding: 5px;
+}
+
+.text-monospace {
+	font-family: Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.text-justify {
+	text-align: justify !important;
+}
+
+.text-nowrap {
+	white-space: nowrap !important;
+}
+
+.text-truncate {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.text-left {
+	text-align: left !important;
+}
+
+.text-right {
+	text-align: right !important;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.text-lowercase {
+	text-transform: lowercase !important;
+}
+
+.text-uppercase {
+	text-transform: uppercase !important;
+}
+
+.text-capitalize {
+	text-transform: capitalize !important;
+}
+
+.text-white {
+	color: $white !important;
+}
+
+.text-secondary {
+	color: #f58054 !important;
+}
+
+a.text-secondary {
+	&:hover,
+	&:focus {
+		color: #f60 !important;
+	}
+}
+
+.text-success {
+	color: $success !important;
+}
+
+a.text-success {
+	&:hover,
+	&:focus {
+		color: #92cc43 !important;
+	}
+}
+
+.text-info {
+	color: #0ca7ec !important;
+}
+
+a.text-info {
+	&:hover,
+	&:focus {
+		color: #1594ef !important;
+	}
+}
+
+.text-warning {
+	color: $warning !important;
+}
+
+a.text-warning {
+	&:hover,
+	&:focus {
+		color: #ffb113 !important;
+	}
+}
+
+.text-danger {
+	color: #ff0000 !important;
+}
+
+a.text-danger {
+	&:hover,
+	&:focus {
+		color: #fb5b50 !important;
+	}
+}
+
+.text-light {
+	color: #f8f9fa !important;
+}
+
+a.text-light {
+	&:hover,
+	&:focus {
+		color: #dae0e5 !important;
+	}
+}
+
+.text-dark {
+	color: #504e70 !important;
+}
+
+.text-body {
+	color: #3d4e67 !important;
+}
+
+.text-muted {
+	color: #8492a6 !important;
+}
+
+.text-black-50 {
+	color: $black-5 !important;
+}
+
+.text-white-50 {
+	color: 5 !important;
+}
+
+.text-hide {
+	font: 0/0 a;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0;
+}
+
+.text-wrap {
+	font-size: 14px;
+	line-height: 1.66;
+	> {
+		 :first-child {
+			margin-top: 0;
+		}
+		 :last-child {
+			margin-bottom: 0;
+		}
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			margin-top: 1em;
+		}
+	}
+}
+
+.text-inherit {
+	color: inherit !important;
+}
+
+.text-default {
+	color: $color !important;
+}
+
+.text-muted-dark {
+	color: #5f6877 !important;
+}
+
+.text-blue {
+	color: $black !important;
+}
+
+.text-indigo {
+	color: #6574cd !important;
+}
+
+.text-purple {
+	color: $purple !important;
+}
+
+.text-lightpink-red {
+	color: #ff7088 !important;
+}
+
+.text-lightgreen {
+	color: #26eda2 !important;
+}
+
+.text-pink {
+	color: #ff2b88 !important;
+}
+
+.text-red {
+	color: #ff0000 !important;
+}
+
+.text-green {
+	color: $success !important;
+}
+
+.text-teal {
+	color: $teal !important;
+}
+
+.text-cyan {
+	color: $cyan !important;
+}
+
+.text-gray {
+	color: #858d97 !important;
+}
+
+.text-gray-dark {
+	color: #3d3f4e !important;
+}
+
+.text-azure {
+	color: #0a7ffb !important;
+}
+
+.text-lime {
+	color: #bfff00 !important;
+}
+
+textarea[cols] {
+	height: auto;
+}
+
+.richText {
+	.richText-toolbar {
+		ul {
+			li a {
+				border-right: #eff2f7 solid 1px;
+			}
+			background: #eceef4;
+			border-bottom: #e5f0ff solid 1px;
+		}
+		background: #eceef4;
+	}
+	border: #e5f0ff solid 1px;
+	background-color: #f1f5fa;
+}
+
+.text-right {
+	text-align: right;
+}
+
+h1.animated-text {
+	font-family: monospace;
+	/* Web-safe typewriter-like font */
+	overflow: hidden;
+	/* Ensures the content is not revealed until the animation */
+	border-right: .15em solid orange;
+	/* The typwriter cursor */
+	white-space: nowrap;
+	/* Keeps the content on a single line */
+	margin: 0 auto;
+	/* Gives that scrolling effect as the typing happens */
+	letter-spacing: .15em;
+	/* Adjust as needed */
+	animation: typing 3.5s steps(30, end), blinking-cursor 0.5s step-end infinite;
+}
+
+.banner1 {
+	.header-text {
+		position: absolute;
+		left: 0;
+		right: 0;
+		color: $white;
+	}
+	.slider .header-text {
+		top: 29%;
+	}
+	.header-text {
+		h2 {
+			font-size: 40px;
+		}
+		h3 {
+			font-size: 25px;
+		}
+		h2 span {
+			padding: 10px;
+		}
+		h3 span {
+			padding: 15px;
+		}
+	}
+}
+
+.text-primary-light {
+	color: #7359ff !important;
+}

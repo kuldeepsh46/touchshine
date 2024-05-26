@@ -1,0 +1,66 @@
+
+.horizontalMenu>.horizontalMenu-list>li>a.btn:hover {
+	background: #fb9512;
+}
+
+.horizontal-main,
+.horizontalMenu>.horizontalMenu-list,
+.horizontal-header {
+	background-color: $white;
+}
+
+
+/* Mobile Header */
+
+.horizontalMenu>.horizontalMenu-list>li {
+	>a {
+		color: #504e70;
+		&.btn {
+			color: $white;
+			font-size: 0.85rem;
+		}
+		>.fa {
+			color: #55606c;
+		}
+		&.active .fa {
+			color: $white;
+		}
+	}
+	&:hover>a>.fa {
+		color: $white;
+	}
+	> {
+		a:hover .fa {
+			color: $white;
+		}
+		ul.sub-menu>li {
+			a i {
+				color: #333;
+			}
+			&:hover>a i {
+				color: $white;
+			}
+		}
+	}
+}
+
+.hor-menu1 {
+	.horizontalMenu>.horizontalMenu-list>li {
+		padding: 0;
+	}
+	.horizontal-megamenu {
+		background: $white;
+		box-shadow: 0px 5px 25px rgba(39, 55, 76, 0.2);
+	}
+	.horizontalMenu>.horizontalMenu-list>li> {
+		ul.sub-menu,
+		.horizontal-megamenu {
+			top: 50px;
+		}
+	}
+}
+
+.horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li>a.active,
+.horizontalMenucontainer .horizontalMenu>.horizontalMenu-list>li>ul.sub-menu>li>a.active {
+	color: #4b2feb;
+}

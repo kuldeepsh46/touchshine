@@ -1,0 +1,365 @@
+.badge-secondary {
+	color: $white;
+	background-color: #3d3f4e;
+	box-shadow: 0 5px 10px rgba(245, 123, 78, 0.2);
+	&[href] {
+		&:hover,
+		&:focus {
+			color: $white;
+			text-decoration: none;
+			background-color: #e1ecfb;
+		}
+	}
+}
+
+.badge-success {
+	color: $white;
+	background-color: #27b12b;
+	box-shadow: 0 5px 10px rgba(39, 177, 43, 0.2);
+	&[href] {
+		&:hover,
+		&:focus {
+			color: $white;
+			text-decoration: none;
+			background-color: #92cc43;
+		}
+	}
+}
+
+.badge-info {
+	color: $white;
+	background-color: #0a7ffb;
+	box-shadow: 0 5px 10px rgba(10, 127, 251, 0.2);
+	&[href] {
+		&:hover,
+		&:focus {
+			color: $white;
+			text-decoration: none;
+			background-color: #1594ef;
+		}
+	}
+}
+
+.badge-warning {
+	color: $white;
+	background-color: $warning;
+	box-shadow: 0 5px 10px rgba(255, 171, 0, 0.2);
+	&[href] {
+		&:hover,
+		&:focus {
+			color: $white;
+			text-decoration: none;
+			background-color: #ffb113;
+		}
+	}
+}
+
+.badge-danger {
+	color: $white;
+	background-color: #f94859;
+	box-shadow: 0 5px 10px rgba(249, 72, 89, 0.2);
+	&[href] {
+		&:hover,
+		&:focus {
+			color: $white;
+			text-decoration: none;
+			background-color: #fb5b50;
+		}
+	}
+}
+
+.badge-light {
+	color: #3d4e67;
+	background-color: #ecebf5;
+	&[href] {
+		&:hover,
+		&:focus {
+			color: #3d4e67;
+			text-decoration: none;
+			background-color: #dae0e5;
+		}
+	}
+}
+
+.badge-dark {
+	color: $white;
+	background-color: #3d3f4e;
+	&[href] {
+		&:hover,
+		&:focus {
+			color: $white;
+			text-decoration: none;
+			background-color: #555769;
+		}
+	}
+}
+
+.badge-pink {
+	color: $white;
+	background-color: #f92884;
+	&[href] {
+		&:hover,
+		&:focus {
+			color: $white;
+			text-decoration: none;
+			background-color: #f92884;
+		}
+	}
+}
+
+.badge {
+	display: inline-block;
+	padding: .25em .4em;
+	font-size: 75%;
+	font-weight: 500;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25rem;
+	line-height: 1.1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 3px;
+}
+
+.badge-md {
+	display: inline-block;
+	padding: .55em .7em;
+	font-size: 75%;
+	font-weight: 500;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25rem;
+	line-height: 1.1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 3px;
+}
+
+.br-0 {
+	border-radius: 0px;
+}
+
+.badge-pill {
+	padding-right: .6em;
+	padding-left: .6em;
+	border-radius: 10rem;
+}
+
+.badgetext {
+	float: right;
+}
+
+.badge-default {
+	background: rgb(234, 240, 247);
+	color: #9da1af;
+}
+
+.badge-offer {
+	position: absolute;
+	top: 0px;
+	left: 15px;
+	z-index: 2;
+	padding: 5px;
+	font-weight: normal;
+	text-align: center;
+	color: $white;
+	font-size: 16px;
+	height: 33px;
+	width: 50px;
+	margin-bottom: 0;
+	&.bg-danger:after {
+		border-top: 12px solid #f94859;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		content: "";
+		height: 0;
+		left: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-primary:after {
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		content: "";
+		height: 0;
+		left: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-secondary:after {
+		border-top: 12px solid #eceef4;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		content: "";
+		height: 0;
+		left: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-success:after {
+		border-top: 12px solid $success;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		content: "";
+		height: 0;
+		left: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-info:after {
+		border-top: 12px solid #0a7ffb;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		content: "";
+		height: 0;
+		left: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-warning:after {
+		border-top: 12px solid $warning;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		content: "";
+		height: 0;
+		left: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-purple:after {
+		border-top: 12px solid $purple;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		content: "";
+		height: 0;
+		left: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-pink:after {
+		border-top: 12px solid $pink;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		content: "";
+		height: 0;
+		left: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+}
+
+.badge-offer1 {
+	position: absolute;
+	top: 0px;
+	right: 15px;
+	z-index: 2;
+	padding: 5px;
+	font-weight: normal;
+	text-align: center;
+	color: $white;
+	font-size: 16px;
+	height: 33px;
+	width: 50px;
+	margin-bottom: 0;
+	&.bg-danger:after {
+		border-top: 12px solid #f94859;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		content: "";
+		height: 0;
+		left: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-primary:after {
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		content: "";
+		height: 0;
+		left: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-secondary:after {
+		border-top: 12px solid #eceef4;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		content: "";
+		height: 0;
+		left: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-success:after {
+		border-top: 12px solid $success;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		content: "";
+		height: 0;
+		left: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-info:after {
+		border-top: 12px solid #0a7ffb;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		content: "";
+		height: 0;
+		left: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-warning:after {
+		border-top: 12px solid $warning;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		content: "";
+		height: 0;
+		left: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-purple:after {
+		border-top: 12px solid #604dd8;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		content: "";
+		height: 0;
+		left: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+	&.bg-pink:after {
+		border-top: 12px solid $pink;
+		border-left: 25px solid transparent;
+		border-right: 25px solid transparent;
+		content: "";
+		height: 0;
+		left: 0;
+		position: absolute;
+		top: 33px;
+		width: 0;
+	}
+}

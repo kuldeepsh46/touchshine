@@ -1,0 +1,4 @@
+[26-Jun-2022 14:46:52 UTC] PHP Fatal error:  Uncaught Error: Class 'CI_Controller' not found in /home/moonexsoiftware/public_html/application/controllers/Spayout.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/moonexsoiftware/public_html/application/controllers/Spayout.php on line 3

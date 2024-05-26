@@ -1,0 +1,44 @@
+
+
+GUID - 1636534398
+================================================================
+URL - https://apibankingone.icicibank.com/api/Corporate/CIB/v1/Transaction
+
+HEADER - ["Content-type:text\/plain","apikey: YmcmYakiCAY4aSVwfvPEzuoKrzsumaig"]
+
+REQUEST - {"CORPID":"576255098","USERID":"HARSHPAT","AGGRNAME":"MOONEX","AGGRID":"OTOE0113","URN":"SR202112501","DEBITACC":"076405003360","CREDITACC":"2547000100143920","IFSC":"PUNB0254700","AMOUNT":"1","CURRENCY":"INR","TXNTYPE":"IFS","PAYEENAME":"GAJANAND","UNIQUEID":"TRN65468446"}
+
+REQUEST ENCRYPTED - "\"nbZ4CsFTwXO8jNC3eg1N4hQAmLROVkUngTnRKbhIrj9t3rpj7r\\\/NDa8xAek095rwhZuIvjnAycGJz+SLKt+L8P3gf1uVTxQP1qxH2+UuOGZzIIS\\\/O093IOlZ4w\\\/OP1gwBND4hBaKoKUa9TDDO87ZzGpj31VEqirz7cnQIDUdnOPvK\\\/S8EdkHoWdh\\\/9iAdarip9S9P6pyioWbBfecDYUUi7je1CCqibnQ5DioRDrnwxLNWa1Zqz1c3JapaLHWZQkLIAp0neT\\\/AuFceOc\\\/ioskj4GcF20VZjwOg8ez8unk9I5K\\\/nTTQNTicVnlSIE\\\/VpTqPZPaTpomTu+KiuWbiUiz601DLeEvlzawlhSvnucMqwd\\\/3Wr8A47LwYXQ4AOjWmxpLCHnHKMTSITNgfp\\\/s3GV\\\/yeNEl627dUIwAwaiyyRfLG1aJOGMgkG\\\/LKetRNEgNwB\\\/qM7pnErjFhLgSceoHqZZ9GppgPl1Lvhip14Nu2drejvLTJ73IXDntQmI7swwoo8k1yzHfdZRSUWdYs\\\/ZYQp+uoDEgKm7dyl8azSPKvRE3Q0NCqKdSwVbztt1tcVEfrSypKCpProWz+XsXLMOAQcNVtWlGdu0foIzPFXXhf9N5Qg2ILg8LZukZ6W6ljYI5SzQX+1k4AR+xsKY0T3xY3e16ZF8pA9QkTigTiI\\\/dwkSMw=\""
+
+
+
+GUID - 1636534399
+================================================================ 
+URL - https://apibankingone.icicibank.com/api/Corporate/CIB/v1/Transaction 
+
+RESPONSE - "{\"success\":false,\"response\":401,\"errormessage\":\"Unauthorized\"}"
+
+RESPONSE DECRYPTED - 
+
+
+
+GUID - 1636535375
+================================================================
+URL - https://apibankingone.icicibank.com/api/Corporate/CIB/v1/Transaction
+
+HEADER - ["Content-type:text\/plain","apikey: YmcmYakiCAY4aSVwfvPEzuoKrzsumaig"]
+
+REQUEST - {"CORPID":"576255098","USERID":"HARSHPAT","AGGRNAME":"MOONEX","AGGRID":"OTOE0113","URN":"SR202112501","DEBITACC":"076405003360","CREDITACC":"2547000100143920","IFSC":"PUNB0254700","AMOUNT":"1","CURRENCY":"INR","TXNTYPE":"IFS","PAYEENAME":"GAJANAND","UNIQUEID":"TRN654175217"}
+
+REQUEST ENCRYPTED - "\"fXY3ZJoSDKmlkJFZ77fZEv60zVFQn5cN5CCwJfq6XjY4xCMbzmUds2KQpp1zZjL0tfnvvJJDcLHU8p65hja6HUia9\\\/f\\\/DNeUNIH5D8dDaTUc996hsQ\\\/YD2rmbPUgwC4ZoEsG\\\/3QV7dEXcESMMrcV4UrzJYnRsIYf1ZDC+0MVim\\\/KHnhf9QUyp8XL4gNDIRZ8qr7xJ4H9wXlKmPG3wxwJkXHJGVqZjMq+1E48J0UN8eIu0cyIp2iOku2esUACqyFdzmKqRxk1xSy7K\\\/rsvbm9IVOEPIgqrijSqn7qaP5k4zYux3YaUu39EizEFtoMYr8NjTEdy5QkL3003QeEmCKG5jTMBYVbdeONTIeyi5CR7EtnSaPW6h1T5HwhyASoyK5e6wuBD0UtMNLKwR7z9E7+jErQ9yxOnMKN4+ISQTw41XJ1mNfHMpJUtvmV65fbm9YqXArsL03R2bUaUgPBtXpV3IXEmzQ\\\/\\\/ZTELJTOxlKNoToX8Lins7Dwo0n8VI2mlZEcC5cZi9HnN0NlXKkLetd04x1RBmzBrd3ZbE4RO+pILfaFcUZV4wSiJ3AXkYibaZQ4mmfOh1BCR\\\/iGrEkr4EwUdu8Ijo0t07nAVlSb+EVf24U0gmQ8bA03SPVIE98OlbR3Hqfgci7qluPelh73PLsMIPh8VLtefHaqtsDv2fW5Aps=\""
+
+
+
+GUID - 1636535376
+================================================================ 
+URL - https://apibankingone.icicibank.com/api/Corporate/CIB/v1/Transaction 
+
+RESPONSE - "{\"success\":false,\"response\":401,\"errormessage\":\"Unauthorized\"}"
+
+RESPONSE DECRYPTED - 
+

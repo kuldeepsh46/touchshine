@@ -1,0 +1,238 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project        :   Dashlot– Bootstrap 4 Admin Dashboard HTML Template
+Version        :   V.1
+Create Date    :   20/10/20
+Copyright      :   Spruko Technologies Private Limited 
+Author         :   SprukoSoft
+Author URL     :   https://themeforest.net/user/sprukosoft
+Support	       :   support@spruko.com
+License        :   Licensed under ThemeForest License
+
+-------------------------------------------------------------------*/
+
+//---------- TABLE OF CONTENTS ----------//
+
+
+/*
+	1.  Fonts
+	2.  Variables
+	3.  Bootstrap-styles
+	4.  Accordion
+	5.  Alerts
+	6.  Avatars
+	7.  Badge
+	8.  Breadcrumbs
+	9.  Buttons
+	10. Cards
+	11. Carousel
+	12. Dropdown
+	13. Forms
+	14. Grid
+	15. Input-group
+	16. Jumbotron
+	17. Modal
+	18. Navigation
+	19. Pagination
+	20. Panel
+	21. Popover
+	22. Progress
+	23. Tables
+	24. Tags
+	25. Thumbnail
+	26. Tooltip
+	27. Custom-styles
+	28. Component-cols
+	29. Gallery
+	30. Highlight
+	31. Labels
+	32. List-group
+	33. Lists
+	34. Media
+	35. Navbar
+	36. Pricing
+	37  Ratings
+	38. Tabsmenu
+	39. Timeline
+	40. Ie
+	41. Feather
+	42. Flags
+	43. Footer
+	44. Header
+	45. Horizontal
+	46. Horizontalmenu
+	47. Icons
+	48. Item-cards
+	49. Loader
+	50. Sidebar
+	51. Custom-control
+	52. Customrange
+	53. Datepicker
+	54. Jvector
+	55. Range
+	56. Select
+	57. Select-group
+	58. Selectize
+	59. Calender
+	60. Charts
+	61  Chat
+	62. Checkbox
+	63  Errorpages
+	64  Mail
+	65  Range
+	66  Ribbons
+	67  Widgets
+	68  Alignments
+	69  Background
+	70  Border
+	71  Display
+	72  Float
+	73  Height
+	74  Margin
+	75  Padding
+	76  Position
+	77  Typography
+	78  Width
+			
+			
+*/
+@import "custom/fonts/fonts";
+
+
+/* ###### bootstrap ####### */
+@import "variables";
+@import "bootstrap/bootstrap-styles";
+@import "bootstrap/accordion";
+@import "bootstrap/alerts";
+@import "bootstrap/avatars";
+@import "bootstrap/badge";
+@import "bootstrap/breadcrumbs";
+@import "bootstrap/buttons";
+@import "bootstrap/cards";
+@import "bootstrap/carousel";
+@import "bootstrap/dropdown";
+@import "bootstrap/forms";
+@import "bootstrap/grid";
+@import "bootstrap/input-group";
+@import "bootstrap/jumbotron";
+@import "bootstrap/modal";
+@import "bootstrap/navigation";
+@import "bootstrap/pagination";
+@import "bootstrap/panel";
+@import "bootstrap/popover";
+@import "bootstrap/progress";
+@import "bootstrap/tables";
+@import "bootstrap/tags";
+@import "bootstrap/thumbnail";
+@import "bootstrap/tooltip";
+
+/* ###### custom ####### */
+
+@import "custom/custom-styles";
+@import "custom/component-cols";
+@import "custom/gallery";
+@import "custom/highlight";
+@import "custom/labels";
+@import "custom/list-group";
+@import "custom/lists";
+@import "custom/media";
+@import "custom/navbar";
+@import "custom/pricing";
+@import "custom/ratings";
+@import "custom/tabsmenu";
+@import "custom/timeline";
+@import "custom/ie";
+
+
+/* ###### layouts ####### */
+
+@import "layouts/feather";
+@import "layouts/flags";
+@import "layouts/footer";
+@import "layouts/header";
+@import "layouts/horizontal";
+@import "layouts/horizontalmenu";
+@import "layouts/icons";
+@import "layouts/item-cards";
+@import "layouts/loader";
+@import "layouts/sidebar";
+
+
+
+/* ######  lib ###### */
+
+@import "lib/custom-control";
+@import "lib/customrange";
+@import "lib/datepicker";
+@import "lib/jvector";
+@import "lib/range";
+@import "lib/select";
+@import "lib/select-group";
+@import "lib/selectize";
+
+
+
+/* ######  template ###### */
+
+@import "template/calender";
+@import "template/charts";
+@import "template/chat";
+@import "template/checkbox";
+@import "template/errorpages";
+@import "template/mail";
+@import "template/range";
+@import "template/ribbons";
+@import "template/widgets";
+
+
+
+
+/* ######  utilities ###### */
+
+@import "utilities/alignments";
+@import "utilities/background";
+@import "utilities/border";
+@import "utilities/display";
+@import "utilities/float";
+@import "utilities/height";
+@import "utilities/margin";
+@import "utilities/padding";
+@import "utilities/position";
+@import "utilities/typography";
+@import "utilities/width";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

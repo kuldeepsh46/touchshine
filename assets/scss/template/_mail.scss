@@ -1,0 +1,92 @@
+.mail-chats {
+	height: 100%;
+	min-height: 0;
+	border-top: 1px solid $border;
+	margin-top: 10px;
+	padding: 10px 50px 10px 0;
+	width: 100%;
+	list-style-type: none;
+	flex-direction: column !important;
+	display: flex !important;
+	li.chat-persons {
+		padding: 10px;
+		display: block;
+	}
+}
+
+li.chat-persons a {
+	text-decoration: none;
+}
+
+.mail-chats li.chat-persons a {
+	span.pro-pic {
+		img {
+			max-width: 100%;
+			width: 100%;
+			-webkit-border-radius: 100%;
+			-moz-border-radius: 100%;
+			-ms-border-radius: 100%;
+			border-radius: 100%;
+			flex-direction: column !important;
+		}
+		display: inline-block;
+		padding: 0;
+		width: 20%;
+		max-width: 40px;
+		float: left;
+		margin-right: 20px;
+	}
+	div.user {
+		flex-direction: column !important;
+	}
+}
+
+ul.mail-chats li.chat-persons a div.user {
+	display: flex !important;
+}
+
+.mail-chats li.chat-persons.user {
+	width: 80%;
+	padding: 5px 10px 0px 15px;
+	flex-direction: column !important;
+	display: flex !important;
+}
+
+.user p {
+	&.u-name {
+		margin: 0;
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 18px;
+		color: #414b67;
+	}
+	&.u-designation {
+		margin: 0;
+		font-size: 11px;
+		color: #8c98b9;
+	}
+}
+
+div.online-status .status.online {
+	background: rgba(0, 128, 0, 0.68);
+}
+
+.online-status .status {
+	&.offline {
+		background: rgba(255, 0, 0, 0.7);
+	}
+	height: 10px;
+	width: 10px;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-ms-border-radius: 100%;
+	border-radius: 100%;
+	display: inline-flex;
+	justify-content: flex-start;
+	transform: translateX(-60px) translateY(2px);
+}
+
+.online {
+	margin-left: 20px;
+	margin-top: -3px;
+}

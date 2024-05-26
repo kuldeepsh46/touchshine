@@ -1,0 +1,116 @@
+/********** IE **********/
+
+*::-ms-backdrop, .col-xl-12 .card-body {
+   height:100%;
+}
+*::-ms-backdrop, .col-md-12.col-lg-4 .card-body {
+    height:100%;
+}
+*::-ms-backdrop, .card.box-shadow-0 .card-body {
+	height:100%;
+}
+*::-ms-backdrop, .mail-chats li.chat-persons{
+    height:100%;
+}
+*::-ms-backdrop, .card-item {
+ height:100%;
+}
+*::-ms-backdrop, .custom-control-label{
+   position:static;
+}
+*::-ms-backdrop, .lds-gear{
+    width:inherit !important;
+}
+*::-ms-backdrop, .pro-img-box{
+    height:100%;
+}
+*::-ms-backdrop, .horizontalMenu > .horizontalMenu-list > li > a .icon_img {
+    width: 20px;
+}
+*::-ms-backdrop, body .app-content {
+    min-height:100vh;
+}
+*::-ms-backdrop, .owl-carousel .owl-item img{
+    height:inherit;
+} 
+*::-ms-backdrop, .product-hover {
+    height:100%;
+}
+*::-ms-backdrop, .card-img-top.img1 {
+     height:183px;
+}
+*::-ms-backdrop, .about-1 {
+    height:183px;
+}
+*::-ms-backdrop, .profile-details {
+    display:flex;
+}
+*::-ms-backdrop, .profile-details span{
+    position:absolute;
+}
+*::-ms-backdrop, .profile-details small{
+    padding-top:15px;
+}
+*::-ms-backdrop, .sidebar.sidebar-right .tabs-menu ul li a{
+    padding:11px 13px 11px 13px;
+}
+*::-ms-backdrop, .sidebar-right .avatar-list ul li {
+    display: inline !important;
+    margin-right: 10px !important;
+}
+*::-ms-backdrop, .carousel.slide.dashboard-carousel .carousel-control-prev .carousel-control-prev-icon::after{
+    display: inline !important;
+}
+*::-ms-backdrop, .carousel.slide.dashboard-carousel .carousel-control-next .carousel-control-next-icon::after{
+    display: inline !important;
+}
+*::-ms-backdrop,.widget-user .media-body{
+    display: block !important;
+}
+*::-ms-backdrop,.wideget-user-followers .media-body{
+    display: block !important;
+}
+*::-ms-backdrop,.email-media .media-body{
+    display: block !important;
+}
+*::-ms-backdrop, .card-img-top1{
+    height:342px;
+}
+*::-ms-backdrop, body.error-page1 .page{
+    height:100%;
+}
+*::-ms-backdrop, .visitor .media-body{
+    display: block !important;
+}
+*::-ms-backdrop, .trend .media-body{
+    display: block !important;
+}
+*::-ms-backdrop, .media-body.ecommerce-2{
+    display: block !important;
+}
+*::-ms-backdrop,.shuffle-group .shuffle-me{
+   float:none !important; 
+}
+*::-ms-backdrop,.nested-media .media-body{
+    display: inline !important;
+}
+*::-ms-backdrop,
+html.fullscreen-button {
+    width: 100%;
+}
+*::-ms-backdrop,
+html.fullscreen-button .main-content,
+*::-ms-backdrop,
+html.fullscreen-button .app-content {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+}
+*::-ms-backdrop, #profile-log-switch .table-responsive .table tbody{
+    display:block !important;
+}
+_:-ms-lang(x), .card.box-shadow-0 img{
+	height:auto;
+}
+
+/********** IE **********/

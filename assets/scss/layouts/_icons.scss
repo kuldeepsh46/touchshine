@@ -1,0 +1,141 @@
+.icons-list {
+	list-style: none;
+	padding: 0;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	border: 1px solid $border;
+	border-bottom: 0;
+	border-right: 0;
+	>li {
+		-ms-flex: 1 0 4rem;
+		flex: 1 0 4rem;
+	}
+}
+
+.icons-list-wrap {
+	overflow: hidden;
+}
+
+.icons-list-item {
+	text-align: center;
+	height: 4rem;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	border-right: 1px solid $border;
+	border-bottom: 1px solid $border;
+	i {
+		font-size: 1.25rem;
+		color: #676a80;
+	}
+}
+
+.iconbage .badge {
+	position: absolute;
+	top: 14px;
+	right: 13px;
+	padding: .2rem .25rem;
+	min-width: 1rem;
+	font-size: 13px;
+}
+
+.icon-card {
+	display: inline-block;
+	li {
+		float: left;
+		font-size: 13px;
+		width: 50%;
+		margin-bottom: 0.5rem;
+	}
+}
+
+.icon-bg i {
+	font-size: 1.5rem;
+}
+
+.icon-service {
+	display: inline-flex;
+	width: 80px;
+	height: 80px;
+	text-align: center;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+}
+
+.icons {
+	span {
+		display: block;
+		position: relative;
+		width: 100%;
+		text-align: center;
+		font-size: 9px;
+		font-weight: 300;
+		color: $white;
+		text-align: center;
+	}
+	.date {
+		font-size: 14px;
+		color: $black;
+		top: 0;
+		padding: 2px;
+		font-weight: 500;
+		background: $background;
+	}
+	.month {
+		background: $primary;
+		overflow: hidden;
+		border-top-right-radius: 3px;
+		border-top-left-radius: 3px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+	}
+}
+
+.iconfont {
+	h2 {
+		font-size: 45px;
+		font-weight: 600;
+		margin-bottom: 10px !important;
+	}
+	h5 {
+		font-size: 16px;
+		font-weight: 600;
+	}
+	i {
+		font-size: 15px;
+	}
+}
+
+.icon i {
+	vertical-align: -1px;
+}
+
+a.icon {
+	text-decoration: none;
+	cursor: pointer;
+	&:hover {
+		color: #1a1a1a !important;
+	}
+}
+
+.icon-absolute {
+	position: absolute;
+	display: block;
+	bottom: 10px;
+	right: 10px;
+	padding: 20px 0;
+	text-align: center;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+}
+
+.icon-size {
+	font-size: 2.5rem !important;
+}
